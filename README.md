@@ -1,3 +1,5 @@
+![K8s Labs Path](images/k8s_lab_path.png)
+
 ## Laboratório para aprendizado e teste da plataforma _Kubernetes_
 
 Com este laboratório desejamos aprender mais sobre:
