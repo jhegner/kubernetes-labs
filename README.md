@@ -1,4 +1,4 @@
-## Laboratório para aprendizado e teste da plataforma _Kubernetes_ na Cloud
+## Laboratório para aprendizado e teste da plataforma _Kubernetes_
 
 Com este laboratório desejamos aprender mais sobre:
 
