@@ -23,5 +23,12 @@ Com este laboratório desejamos aprender mais sobre:
 - https://developer.hashicorp.com/terraform
 - https://www.conventionalcommits.org/pt-br/v1.0.0/
 
+### Ferramentas e serviços
+
+- https://mail.tm/en/
+- https://smtp.dev/
+- https://temp-mail.org/en/
+- https://registro.br/
+
 ### Articles
 - https://github.com/resources/articles/devops/ci-cd
