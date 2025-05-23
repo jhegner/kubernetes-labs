@@ -1,0 +1,6 @@
+[submodule "apps/kubernetes-labs-infra-demo"]
+	path = apps/kubernetes-labs-infra-demo
+	url = https://github.com/jhegner/kubernetes-labs-infra-demo
+[submodule "apps/kubernetes-labs-infra-cluster"]
+	path = apps/kubernetes-labs-infra-cluster
+	url = https://github.com/jhegner/kubernetes-labs-infra-cluster
