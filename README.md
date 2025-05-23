@@ -2,6 +2,8 @@
 
 ## Laboratório para aprendizado e teste da plataforma _Kubernetes_
 
+Bem-vindo ao repositório `kubernetes-labs`!
+
 Com este laboratório desejamos aprender mais sobre:
 
 1. Arquitetura 
@@ -9,6 +11,8 @@ Com este laboratório desejamos aprender mais sobre:
 3. CI/CD (devops)
 4. Observability
 5. Security
+
+> Este projeto utiliza **Git Submodules** para gerenciar aplicações e infraestrutura, para saber mais confira a [README](/docs/apps/README.md)
 
 ### Links importantes
 
