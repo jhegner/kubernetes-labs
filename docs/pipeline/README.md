@@ -18,3 +18,6 @@ As atividades dos labs terão como base a plataforma Github Actions
 - ![Runners](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#runners)
 
 
+## Pipeline do lab
+
+![K8s Labs Pipelines](../../images/arquitetura-pipeline.png)
