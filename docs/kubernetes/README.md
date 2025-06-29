@@ -34,13 +34,19 @@ As atividades dos labs terão como base os livros **Kubernetes Básico** e **Dev
 - Padrões de desenvolvimento para aplicações cloud-native.
 - Exemplos práticos e recomendações para adoção de DevOps com Kubernetes.
 
+---
+
 ### Arquitetura Vultr
 
 ![K8s Labs Vultr](../../images/arquitetura-infra-vultr.png)
 
+---
+
 ### Arquitetura GCP
 
 - TBD
+
+---
 
 ### Arquitetura Azure
 
