@@ -12,6 +12,7 @@ Com este laboratório desejamos aprender mais sobre:
 4. Observability
 5. Security
 
+> [!TIP]
 > Este projeto utiliza **Git Submodules** para gerenciar aplicações e infraestrutura, para saber mais confira a [README](/docs/apps/README.md)
 
 ### Links importantes
@@ -36,3 +37,9 @@ Com este laboratório desejamos aprender mais sobre:
 
 ### Articles
 - https://github.com/resources/articles/devops/ci-cd
+
+### Documentação
+- [Apps](/docs/apps/README.md)
+- [Kubernetes](/docs/kubernetes/README.md)
+- [Pipeline](/docs/pipeline/README.md)
+- [Repos](/docs/repos/README.md)

@@ -6,7 +6,7 @@ Este README.md guiará você pelos principais passos para configurar, atualizar 
 
 ## O que são Git Submodules?
 
-Git Submodules permitem que um repositório Git inclua outros repositórios Git como subdiretórios. Isso é útil para gerenciar projetos que dependem de componentes externos, como bibliotecas ou, neste caso, aplicações separadas e configurações de infraestrutura. Eles apontam para um **commit específico** do repositório externo, garantindo que o seu projeto principal sempre use uma versão testada e estável do submódulo.
+[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) permitem que um repositório Git inclua outros repositórios Git como subdiretórios. Isso é útil para gerenciar projetos que dependem de componentes externos, como bibliotecas ou, neste caso, aplicações separadas e configurações de infraestrutura. Eles apontam para um **commit específico** do repositório externo, garantindo que o seu projeto principal sempre use uma versão testada e estável do submódulo.
 
 ---
 

@@ -4,3 +4,6 @@
 [submodule "apps/kubernetes-labs-infra-cluster"]
 	path = apps/kubernetes-labs-infra-cluster
 	url = https://github.com/jhegner/kubernetes-labs-infra-cluster
+[submodule "apps/kubernetes-labs-infra-vultr"]
+	path = apps/kubernetes-labs-infra-vultr
+	url = https://github.com/jhegner/kubernetes-labs-infra-vultr
