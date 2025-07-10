@@ -7,3 +7,6 @@
 [submodule "apps/kubernetes-labs-infra-vultr"]
 	path = apps/kubernetes-labs-infra-vultr
 	url = https://github.com/jhegner/kubernetes-labs-infra-vultr
+[submodule "apps/kubernetes-labs-app-micronout"]
+	path = apps/kubernetes-labs-app-micronout
+	url = https://github.com/jhegner/kubernetes-labs-app-micronout/
