@@ -25,6 +25,11 @@ Siga estes passos para clonar e configurar o projeto em sua máquina local.
 
 ### 1. Clonar o Repositório Principal
 
+> [!TIP]
+> Para adicionar um novo submódulo, use o comando `git submodule add` com a URL absoluta ou relativa do projeto que você gostaria de começar a rastrear
+
+---
+
 Para começar, clone o repositório `kubernetes-labs` e seus submódulos de uma vez:
 
 ```bash
