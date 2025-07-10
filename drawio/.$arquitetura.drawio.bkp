@@ -357,7 +357,7 @@
           <mxGeometry y="5" width="21" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jw2-C3n6NH6MLMiiRFBf-108" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;Vultr Kubernetes Engine (VKE Cluster on 1.33.x)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="_2Mti8XNZTV7oq3__oSF-5" vertex="1">
-          <mxGeometry x="20" width="170" height="30" as="geometry" />
+          <mxGeometry x="27.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fz012iEGtq6h0XaTSFpF-1" value="- Valkey&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;Region: Altanta&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;Version: 7&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;Server Type: Cloud Compute&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(102, 102, 0), rgb(162, 162, 74));&quot;&gt;Plan - 1VCPU, 1GB DDR4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;NumberForReplicas: 0&lt;/div&gt;&lt;/div&gt;&lt;div&gt;VPC&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1240" y="482" width="120" height="139.04" as="geometry" />
