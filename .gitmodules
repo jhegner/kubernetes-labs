@@ -10,3 +10,6 @@
 [submodule "apps/kubernetes-labs-app-micronout"]
 	path = apps/kubernetes-labs-app-micronout
 	url = https://github.com/jhegner/kubernetes-labs-app-micronout/
+[submodule "apps/kubernetes-labs-ci-workflows"]
+	path = apps/kubernetes-labs-ci-workflows
+	url = https://github.com/jhegner/kubernetes-labs-ci-workflows.git
