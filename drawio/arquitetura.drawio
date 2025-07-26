@@ -417,7 +417,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HqiohCoSEqN6ON4YKM8j" name="workflow">
-    <mxGraphModel dx="800" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -488,7 +488,7 @@
         <mxCell id="4R3b0hbZVOzDNsHvHrCs-26" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="690" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KMQMdKMaKogBCFol4jVf-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-1" target="KMQMdKMaKogBCFol4jVf-3">
+        <mxCell id="H74DmjIJH0IYWhIHoksT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-1" target="H74DmjIJH0IYWhIHoksT-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-1" value="Merge em branch develop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -497,20 +497,23 @@
         <mxCell id="KMQMdKMaKogBCFol4jVf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-3" target="KMQMdKMaKogBCFol4jVf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KMQMdKMaKogBCFol4jVf-3" value="Build Docker Image" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="800" width="120" height="40" as="geometry" />
+        <mxCell id="H74DmjIJH0IYWhIHoksT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-3" target="H74DmjIJH0IYWhIHoksT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMQMdKMaKogBCFol4jVf-3" value="Vultr - Build &lt;br&gt;Container Image" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-5" target="KMQMdKMaKogBCFol4jVf-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-5" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Scan com Trivy&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="800" width="120" height="40" as="geometry" />
+          <mxGeometry x="615" y="860" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KMQMdKMaKogBCFol4jVf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-7" target="KMQMdKMaKogBCFol4jVf-5">
+        <mxCell id="H74DmjIJH0IYWhIHoksT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-7" target="KMQMdKMaKogBCFol4jVf-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KMQMdKMaKogBCFol4jVf-7" value="Upload image para VCR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="800" width="120" height="40" as="geometry" />
+        <mxCell id="KMQMdKMaKogBCFol4jVf-7" value="Upload image para Container Registry" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-15" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-10" target="KMQMdKMaKogBCFol4jVf-14">
           <mxGeometry relative="1" as="geometry" />
@@ -524,16 +527,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-10" value="Vulnerabilidade" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="900" width="80" height="80" as="geometry" />
+          <mxGeometry x="635" y="970" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-14" target="KMQMdKMaKogBCFol4jVf-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-14" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Pipeline falha&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="920" width="120" height="40" as="geometry" />
+          <mxGeometry x="795" y="990" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-16" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="930" width="20" height="20" as="geometry" />
+          <mxGeometry x="1015" y="1000" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMQMdKMaKogBCFol4jVf-18" target="KMQMdKMaKogBCFol4jVf-24">
           <mxGeometry relative="1" as="geometry" />
@@ -547,10 +550,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-18" value="Deploy&lt;div&gt;(dev)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="615" y="1110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KMQMdKMaKogBCFol4jVf-24" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1170" width="20" height="20" as="geometry" />
+          <mxGeometry x="665" y="1240" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="H74DmjIJH0IYWhIHoksT-1" value="Job" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="100" width="120" height="20" as="geometry" />
@@ -568,10 +571,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H74DmjIJH0IYWhIHoksT-8" value="Notificação" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="795" y="1110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H74DmjIJH0IYWhIHoksT-14" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Notifica deploy &lt;br&gt;(ambiente)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1040" width="120" height="40" as="geometry" />
+          <mxGeometry x="975" y="1110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="H74DmjIJH0IYWhIHoksT-16" target="KMQMdKMaKogBCFol4jVf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-16" value="&lt;div&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: var(--darkreader-text-000000, #e3e1de);&quot;&gt;- List Container Registry&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Select The Lab Registry By Name&lt;/div&gt;&lt;div&gt;- Log into Container Registry&lt;/div&gt;&lt;div&gt;- Build and Push Docker Image&lt;/div&gt;&lt;div&gt;- Logout from Docker Registry&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="810" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H74DmjIJH0IYWhIHoksT-19" target="KMQMdKMaKogBCFol4jVf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H74DmjIJH0IYWhIHoksT-19" target="H74DmjIJH0IYWhIHoksT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-19" value="Generate Semantic Tags" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-22" value="Gera&amp;nbsp;&lt;br&gt;semantic-release" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="770" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H74DmjIJH0IYWhIHoksT-24" target="H74DmjIJH0IYWhIHoksT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-24" value="Gera&amp;nbsp;&lt;div&gt;changelog&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="950" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H74DmjIJH0IYWhIHoksT-27" value="Generate or updated&amp;nbsp;&lt;br&gt;changelog" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
