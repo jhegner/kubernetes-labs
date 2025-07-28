@@ -417,7 +417,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HqiohCoSEqN6ON4YKM8j" name="workflow">
-    <mxGraphModel dx="1961" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2084" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -583,25 +583,25 @@
           <mxGeometry x="215" y="1220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iMDVj9Kkjb1aZbonuO1L-3" value="Workflow - &lt;br&gt;Develop &amp;gt; Release &amp;gt; Main" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="80" width="1040" height="70" as="geometry" />
+          <mxGeometry x="1000" y="30" width="1040" height="70" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iMDVj9Kkjb1aZbonuO1L-5" target="iMDVj9Kkjb1aZbonuO1L-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iMDVj9Kkjb1aZbonuO1L-5" value="Deploy em Dev&lt;br&gt;sucesso" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="1300" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iMDVj9Kkjb1aZbonuO1L-41" value="Job" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="170" width="120" height="20" as="geometry" />
+          <mxGeometry x="1000" y="120" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iMDVj9Kkjb1aZbonuO1L-42" value="Step" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="200" width="120" height="20" as="geometry" />
+          <mxGeometry x="1000" y="150" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iMDVj9Kkjb1aZbonuO1L-51" target="DfNUrHeW0sUgAX9XTrhM-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iMDVj9Kkjb1aZbonuO1L-51" value="Criar PR automático para main" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="290" width="120" height="40" as="geometry" />
+          <mxGeometry x="1300" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfNUrHeW0sUgAX9XTrhM-5" target="DfNUrHeW0sUgAX9XTrhM-14">
           <mxGeometry relative="1" as="geometry" />
@@ -610,16 +610,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-5" value="Generate Tags" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="1300" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfNUrHeW0sUgAX9XTrhM-8" target="DfNUrHeW0sUgAX9XTrhM-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-8" value="Edit PR &lt;br&gt;(develop &amp;gt; main)&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="1300" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="420" width="20" height="20" as="geometry" />
+          <mxGeometry x="1280" y="370" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfNUrHeW0sUgAX9XTrhM-14" target="DfNUrHeW0sUgAX9XTrhM-15">
           <mxGeometry relative="1" as="geometry" />
@@ -633,30 +633,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-14" value="Deploy&lt;div&gt;(prod)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="1300" y="550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-15" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="730" width="20" height="20" as="geometry" />
+          <mxGeometry x="1350" y="680" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DfNUrHeW0sUgAX9XTrhM-17" target="DfNUrHeW0sUgAX9XTrhM-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-17" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Notifica deploy &lt;br&gt;(ambiente)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="1480" y="550" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DfNUrHeW0sUgAX9XTrhM-18" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;#Slack&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="690" width="120" height="40" as="geometry" />
+          <mxGeometry x="1480" y="640" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9l_tv9oCdsplr_2L7ga-2" target="DfNUrHeW0sUgAX9XTrhM-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1620" y="550" as="targetPoint" />
+            <mxPoint x="1240" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-2" value="Eng edita PR com a marcação&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;execute=DEPLOY_PRODUCAO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iniciando o fluxo de deploy em produção&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="350" width="230" height="140" as="geometry" />
+          <mxGeometry x="880" y="300" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-7" value="Atualiza Imagem &lt;br&gt;com Tags (semantic)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="1480" y="450" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
