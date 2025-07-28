@@ -579,7 +579,7 @@
         <mxCell id="H74DmjIJH0IYWhIHoksT-16" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Log into Container Registry&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Build and Push Docker Image&lt;/div&gt;&lt;div&gt;- Logout from Docker Registry&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-160" y="810" width="230" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="iMDVj9Kkjb1aZbonuO1L-1" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Slack#&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iMDVj9Kkjb1aZbonuO1L-1" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;#Slack&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="795" y="1200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
