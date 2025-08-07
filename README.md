@@ -36,3 +36,11 @@ Com este laboratório desejamos aprender mais sobre:
 - [Kubernetes](/docs/kubernetes/README.md)
 - [Pipeline](/docs/pipeline/README.md)
 - [Repos](/docs/repos/README.md)
+
+
+### Projetos do Lab
+- [infra-demo](https://github.com/jhegner/kubernetes-labs-infra-demo)
+- [app-micronout](https://github.com/jhegner/kubernetes-labs-app-micronout)
+- [ci-workflows](https://github.com/jhegner/kubernetes-labs-ci-workflows)
+- [infra-cloud-vultr](https://github.com/jhegner/kubernetes-labs-infra-cloud-vultr)
+- [infra-vkecluster](https://github.com/jhegner/kubernetes-labs-infra-vkecluster)

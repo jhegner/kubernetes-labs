@@ -153,7 +153,7 @@
         <mxCell id="gdvOLZ9PnW3najfVkO65-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gdvOLZ9PnW3najfVkO65-5" target="gdvOLZ9PnW3najfVkO65-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gdvOLZ9PnW3najfVkO65-5" value="&lt;span style=&quot;font-size: 16px; font-style: normal; text-wrap-mode: nowrap;&quot;&gt;&lt;b&gt;kubernetes-labs-infra-vkecluster-vultr&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="gdvOLZ9PnW3najfVkO65-5" value="&lt;span style=&quot;font-size: 16px; font-style: normal; text-wrap-mode: nowrap;&quot;&gt;&lt;b&gt;kubernetes-labs-infra-vkecluster&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="120" y="-780" width="305" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gdvOLZ9PnW3najfVkO65-6" value="Repositório para testes e demo, para:&lt;br&gt;- Github Actions (workflow, jobs, etc)&lt;br&gt;- Terraform&lt;br&gt;- Vultr,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;AWS, GCP, Azure&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
@@ -405,7 +405,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HqiohCoSEqN6ON4YKM8j" name="workflow">
-    <mxGraphModel dx="2754" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2082" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -640,7 +640,7 @@
             <mxPoint x="1240" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h9l_tv9oCdsplr_2L7ga-2" value="Eng edita PR com a marcação&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;execute=DEPLOY_PRODUCAO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iniciando o fluxo de deploy em produção&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="h9l_tv9oCdsplr_2L7ga-2" value="Eng edita PR com a marcação&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;execute=DEPLOY_PRODUCAO&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iniciando o fluxo de deploy em produção&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="880" y="300" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="h9l_tv9oCdsplr_2L7ga-7" value="Atualiza Imagem &lt;br&gt;com Tags (semantic)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
