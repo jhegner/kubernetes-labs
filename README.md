@@ -44,3 +44,18 @@ Com este laboratório desejamos aprender mais sobre:
 - [ci-workflows](https://github.com/jhegner/kubernetes-labs-ci-workflows)
 - [infra-cloud-vultr](https://github.com/jhegner/kubernetes-labs-infra-cloud-vultr)
 - [infra-vkecluster](https://github.com/jhegner/kubernetes-labs-infra-vkecluster)
+
+### Segredos e variáveis de ambiente
+> Para execução das pipelines de infra e apps é necessário cadastrar os seguintes segredos ou variáveis de ambiente em cada repositório com respectivos valores
+Settings > Security > Secrets and variables > Actions
+- GH_TOKEN
+- SONAR_TOKEN						
+- SONAR_KEY						
+- VULTR_API_KEY					
+- VULTR_REGISTRY_URN				
+- VULTR_REGISTRY_USERNAME			
+- VULTR_REGISTRY_PASSWORD			
+- VULTR_CONTAINER_REGISTRY_NAME	
+- AWS_ACCESS_KEY_ID				
+- AWS_SECRET_ACCESS_KEY			
+
