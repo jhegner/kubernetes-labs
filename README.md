@@ -46,7 +46,7 @@ Com este laboratório desejamos aprender mais sobre:
 - [infra-vkecluster](https://github.com/jhegner/kubernetes-labs-infra-vkecluster)
 
 ### Segredos e variáveis de ambiente
-> Para execução das pipelines de infra e apps é necessário cadastrar os seguintes segredos ou variáveis de ambiente em cada repositório com respectivos valores
+> Para execução das pipelines de infra e apps é necessário cadastrar os seguintes segredos ou variáveis de ambiente em cada repositório com respectivos valores em:
 Settings > Security > Secrets and variables > Actions
 - GH_TOKEN
 - SONAR_TOKEN						
