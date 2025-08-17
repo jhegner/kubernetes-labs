@@ -24,6 +24,7 @@ Com este laboratório desejamos aprender mais sobre:
 - https://nvie.com/posts/a-successful-git-branching-model/
 - https://developer.hashicorp.com/terraform
 - https://www.conventionalcommits.org/pt-br/v1.0.0/
+- https://mockapi.io/
 
 ### Ferramentas e serviços
 
@@ -58,4 +59,5 @@ Settings > Security > Secrets and variables > Actions
 - VULTR_CONTAINER_REGISTRY_NAME	
 - AWS_ACCESS_KEY_ID				
 - AWS_SECRET_ACCESS_KEY			
+- MOCKAPI_PROJECT_SECRET
 
